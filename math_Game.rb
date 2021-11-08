@@ -22,7 +22,7 @@ Read the description above again and extract / write down the nouns that you fee
 
   class players 
   class questions
-  class game
+  class turn
 
 Task 2: Write their roles
 What is the role for each class?
