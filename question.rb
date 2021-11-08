@@ -14,8 +14,4 @@ class Question
     @answer = @num1 + @num2
   end
 
-  def check_Answer(answer)
-    @answer == answer
-  end
-
 end 
