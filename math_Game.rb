@@ -50,6 +50,6 @@ Furthermore:
 Which class will contain the game loop (where each instance of the loop is the other players turn)?
 Game class will keep the structuce 
 Which class should manage who the current_player is?
-Game class she know the current player 
+Game class should know the current player 
 Which class(es) will contain user I/O and which will not have any?
 Player and questions have Instance variables , game will not . 
