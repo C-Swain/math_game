@@ -20,9 +20,9 @@ Read the description above again and extract / write down the nouns that you fee
  could make for important entities (manifested in the form of classes) to contain
   (encapsulate) logic as part of this app.
 
-  class players 
-  class questions
-  class turn
+  class Players 
+  class Questions
+  class Game
 
 Task 2: Write their roles
 What is the role for each class?
