@@ -1,5 +1,5 @@
-require "./players"
-require "./questions"
+require "./player"
+require "./question"
 require "./game"
 
 game = Game.new

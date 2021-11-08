@@ -9,12 +9,20 @@ class Game
 
   #We will need to initialize game 
   def initialize
+  
    
   end
 
  #We need to set the game
   def run
-   puts "hello world"
+  @playerOne = Player.new("playerOne")
+  @playerTwo = Player.new("playerTwo") 
+  puts "Welcome Players!"
+  q1 = Question.new 
+  puts " playerOne #{q1.show} "
+  
+  pp @playerOne.name
+  
   end
 end
 
@@ -41,7 +49,7 @@ end
 
 # roundThree +
 
- # first will ask a question to playerOne , if if PlayerOne_answer != answer  playerOne.lives  -=1
+# first will ask a question to playerOne , if if PlayerOne_answer != answer  playerOne.lives  -=1
 
 
 # second will ask a question to playerTwo, if playerTwo_answer != answer , playerTwo.lives -=1

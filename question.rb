@@ -3,9 +3,9 @@
 # adds numbers together to create answer
 #shows a question from random numbers.
 
-class Questions
+class Question
   # Attr the info the outsiders will require
-  # attr_accessor : :show , :answer
+  attr_accessor :show , :answer
   def initialize()
     #using .. instead of ... in order to include 20 in the possibilities
     @num1 = rand(1..20)
